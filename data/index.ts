@@ -1,0 +1,1240 @@
+import { LayersIcon, RocketIcon, TrophyIcon } from "lucide-react";
+
+export const tournamentList = [
+  {
+    icon: RocketIcon,
+    text: "All your communities competitions in one place",
+  },
+  {
+    icon: TrophyIcon,
+    text: "Host tournaments with minimal effort",
+  },
+  {
+    icon: LayersIcon,
+    text: "Create tournaments quickly with templates",
+  },
+];
+
+export const currencies = [
+  {
+    key: "eur",
+    label: "EUR",
+    description: "Default platform currency",
+  },
+  {
+    key: "usd",
+    label: "USD",
+    description: "You will see estimated values.",
+  },
+  {
+    key: "gbp",
+    label: "GBP",
+    description: "You will see estimated values.",
+  },
+  {
+    key: "brl",
+    label: "BRL",
+    description: "You will see estimated values.",
+  },
+];
+
+export const regions = [
+  {
+    key: "na",
+    label: "North America",
+    description: "North American server region",
+  },
+  {
+    key: "euw",
+    label: "Europe West",
+    description: "European West server region",
+  },
+  {
+    key: "eune",
+    label: "Europe Nordic & East",
+    description: "European Nordic and East server region",
+  },
+  {
+    key: "kr",
+    label: "Korea",
+    description: "Korean server region",
+  },
+  {
+    key: "jp",
+    label: "Japan",
+    description: "Japanese server region",
+  },
+  {
+    key: "br",
+    label: "Brazil",
+    description: "Brazilian server region",
+  },
+  {
+    key: "lan",
+    label: "Latin America North",
+    description: "Latin America North server region",
+  },
+  {
+    key: "las",
+    label: "Latin America South",
+    description: "Latin America South server region",
+  },
+  {
+    key: "oce",
+    label: "Oceania",
+    description: "Oceania server region",
+  },
+  {
+    key: "ru",
+    label: "Russia",
+    description: "Russian server region",
+  },
+  {
+    key: "tr",
+    label: "Turkey",
+    description: "Turkish server region",
+  },
+  {
+    key: "sg",
+    label: "Singapore",
+    description: "Singapore server region",
+  },
+];
+
+export const tournaments = [
+  {
+    id: 1,
+    imageUrl: "/assets/images/lolt2.jpeg",
+    date: "2024-09-06 23:00 GMT+5",
+    displayDate: "Today, 23:00",
+    name: "The Arena",
+    region: "EUNE",
+    format: "5v5",
+    prizePool: "€30.00",
+    slots: 32,
+    host: {
+      name: "LOL All Stars",
+      avatar: "/assets/avatars/6.png",
+    },
+    isSubscribersOnly: true,
+    link: "/tournaments/the-arena",
+  },
+  {
+    id: 2,
+    imageUrl: "/assets/images/lolt2.jpeg",
+    date: "2024-09-07 20:00 GMT+5",
+    displayDate: "Tomorrow, 20:00",
+    name: "Summoner's Clash",
+    region: "EUW",
+    format: "3v3",
+    prizePool: "€50.00",
+    slots: 16,
+    host: {
+      name: "EUW Esports",
+      avatar: "/assets/avatars/6.png",
+    },
+    isSubscribersOnly: false,
+    link: "/tournaments/summoners-clash",
+  },
+  {
+    id: 3,
+    imageUrl: "/assets/images/game-bg.jpg",
+    date: "2024-09-10 18:00 GMT+5",
+    displayDate: "Next Week, 18:00",
+    name: "Rift Rumble",
+    region: "NA",
+    format: "1v1",
+    prizePool: "€20.00",
+    slots: 64,
+    host: {
+      name: "NA Tournament Org",
+      avatar: "/assets/avatars/6.png",
+    },
+    isSubscribersOnly: true,
+    link: "/tournaments/rift-rumble",
+  },
+  {
+    id: 4,
+    imageUrl: "/assets/images/lolt2.jpeg",
+    date: "2024-09-10 18:00 GMT+5",
+    displayDate: "Next Week, 18:00",
+    name: "Rift Rumble",
+    region: "NA",
+    format: "1v1",
+    prizePool: "€20.00",
+    slots: 64,
+    host: {
+      name: "NA Tournament Org",
+      avatar: "/assets/avatars/6.png",
+    },
+    isSubscribersOnly: true,
+    link: "/tournaments/rift-rumble",
+  },
+];
+
+export const marketplaceList = [
+  {
+    id: 1,
+    category: "Coaching",
+    title: "LoL Coaching with former",
+    price: {
+      amount: 15.0,
+      currency: "EUR",
+      startingAt: true,
+    },
+    rating: {
+      score: 5.0,
+      count: 9,
+    },
+    avatar: "/assets/avatars/1.png",
+    image: "/assets/images/lolt2.jpeg",
+  },
+  {
+    id: 2,
+    category: "Coaching",
+    title: "Dota 2 Strategy Sessions",
+    price: {
+      amount: 20.0,
+      currency: "USD",
+      startingAt: true,
+    },
+    rating: {
+      score: 4.8,
+      count: 15,
+    },
+    avatar: "/assets/avatars/1.png",
+    image: "/assets/images/lolt2.jpeg",
+  },
+  {
+    avatar: "/assets/avatars/1.png",
+    id: 3,
+    category: "Coaching",
+    title: "CS:GO Aim Training",
+    price: {
+      amount: 12.5,
+      currency: "EUR",
+      startingAt: true,
+    },
+    rating: {
+      score: 4.9,
+      count: 22,
+    },
+    image: "/assets/images/lolt2.jpeg",
+  },
+  {
+    id: 4,
+    category: "Coaching",
+    title: "Fortnite Building Techniques",
+    price: {
+      amount: 18.0,
+      currency: "USD",
+      startingAt: true,
+    },
+    rating: {
+      score: 4.7,
+      count: 13,
+    },
+    avatar: "/assets/avatars/6.png",
+    image: "/assets/images/lolt2.jpeg",
+  },
+];
+
+export const avatars = [
+  "/assets/avatars/1.png",
+  "/assets/avatars/2.png",
+  "/assets/avatars/3.png",
+  "/assets/avatars/4.png",
+  "/assets/avatars/5.png",
+  "/assets/avatars/6.png",
+  "/assets/avatars/7.jpeg",
+  "/assets/avatars/8.jpg",
+];
+
+export const games = [
+  {
+    id: Math.random(),
+    name: "Valorant",
+    img: "/assets/games/valorant.png",
+    href: "/valorant",
+  },
+  {
+    id: Math.random(),
+    name: "League of legends",
+    img: "/assets/games/lol.png",
+    href: "/lol",
+  },
+  {
+    id: Math.random(),
+    name: "Dota 2",
+    img: "/assets/games/dota2.png",
+    href: "/dota2",
+  },
+  {
+    id: Math.random(),
+    name: "Wildrift",
+    img: "/assets/games/wildrift.png",
+    href: "/wildrift",
+  },
+  {
+    id: Math.random(),
+    name: "Rainbow Six",
+    img: "/assets/games/rainbowSix.png",
+    href: "/rainbow-six",
+  },
+  {
+    id: Math.random(),
+    name: "Valorant",
+    img: "/assets/games/valorant.png",
+    href: "/valorant",
+  },
+  {
+    id: Math.random(),
+    name: "League of legends",
+    img: "/assets/games/lol.png",
+    href: "/lol",
+  },
+  {
+    id: Math.random(),
+    name: "Dota 2",
+    img: "/assets/games/dota2.png",
+    href: "/dota2",
+  },
+  {
+    id: Math.random(),
+    name: "Wildrift",
+    img: "/assets/games/wildrift.png",
+    href: "/wildrift",
+  },
+  {
+    id: Math.random(),
+    name: "Rainbow Six",
+    img: "/assets/games/rainbowSix.png",
+    href: "/rainbow-six",
+  },
+  {
+    id: Math.random(),
+    name: "Wildrift",
+    img: "/assets/games/wildrift.png",
+    href: "/wildrift",
+  },
+  {
+    id: Math.random(),
+    name: "Rainbow Six",
+    img: "/assets/games/rainbowSix.png",
+    href: "/rainbow-six",
+  },
+  {
+    id: Math.random(),
+    name: "Valorant",
+    img: "/assets/games/valorant.png",
+    href: "/valorant",
+  },
+  {
+    id: Math.random(),
+    name: "League of legends",
+    img: "/assets/games/lol.png",
+    href: "/lol",
+  },
+  {
+    id: Math.random(),
+    name: "Dota 2",
+    img: "/assets/games/dota2.png",
+    href: "/dota2",
+  },
+  {
+    id: Math.random(),
+    name: "Wildrift",
+    img: "/assets/games/wildrift.png",
+    href: "/wildrift",
+  },
+  {
+    id: Math.random(),
+    name: "Rainbow Six",
+    img: "/assets/games/rainbowSix.png",
+    href: "/rainbow-six",
+  },
+  {
+    id: Math.random(),
+    name: "Valorant",
+    img: "/assets/games/valorant.png",
+    href: "/valorant",
+  },
+  {
+    id: Math.random(),
+    name: "League of legends",
+    img: "/assets/games/lol.png",
+    href: "/lol",
+  },
+  {
+    id: Math.random(),
+    name: "Dota 2",
+    img: "/assets/games/dota2.png",
+    href: "/dota2",
+  },
+  {
+    id: Math.random(),
+    name: "Wildrift",
+    img: "/assets/games/wildrift.png",
+    href: "/wildrift",
+  },
+  {
+    id: Math.random(),
+    name: "Rainbow Six",
+    img: "/assets/games/rainbowSix.png",
+    href: "/rainbow-six",
+  },
+  {
+    id: Math.random(),
+    name: "Wildrift",
+    img: "/assets/games/wildrift.png",
+    href: "/wildrift",
+  },
+  {
+    id: Math.random(),
+    name: "Rainbow Six",
+    img: "/assets/games/rainbowSix.png",
+    href: "/rainbow-six",
+  },
+];
+
+export const featuredSpaces = [
+  {
+    name: "Top Agents",
+    members: "129K",
+    avatar: "/assets/avatars/2.png",
+    verified: true,
+    badge: "diamond",
+  },
+  {
+    name: "LoL Allstars",
+    members: "37K",
+    avatar: "/assets/avatars/4.png",
+    verified: true,
+    badge: "diamond",
+  },
+  {
+    name: "CS2 Allstars",
+    members: "53K",
+    avatar: "/assets/avatars/1.png",
+    verified: true,
+    badge: "diamond",
+  },
+  {
+    name: "Wolfoxy",
+    members: "194K",
+    avatar: "/assets/avatars/6.png",
+    verified: true,
+  },
+  {
+    name: "CORSAIR",
+    members: "13K",
+    avatar: "/assets/avatars/5.png",
+    verified: true,
+  },
+  {
+    name: "ProPlayers",
+    avatar: "/assets/avatars/6.png",
+    members: "7.2K",
+    verified: true,
+    badge: "diamond",
+  },
+];
+const categories = ["brand", "content-creator", "community", "featured"];
+
+export const popularSpaces = [
+  {
+    name: "Top Agents",
+    members: "129K",
+    avatar: "/assets/avatars/6.png",
+    banner: "/assets/images/valo.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    badge: "diamond",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "LoL Allstars",
+    members: "37K",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    avatar: "/assets/avatars/4.png",
+    banner: "/assets/avatars/9.png",
+    badge: "diamond",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "CS2 Allstars",
+    members: "53K",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    avatar: "/assets/avatars/1.png",
+    banner: "/assets/images/valo.png",
+    badge: "diamond",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "Wolfoxy",
+    members: "194K",
+    avatar: "/assets/avatars/2.png",
+    banner: "/assets/avatars/9.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "CORSAIR",
+    members: "13K",
+    avatar: "/assets/avatars/4.png",
+    banner: "/assets/images/valo.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "ProPlayers",
+    members: "7.2K",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    avatar: "/assets/avatars/3.png",
+    banner: "/assets/avatars/9.png",
+    badge: "diamond",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "Apex Legends Hub",
+    members: "102K",
+    avatar: "/assets/avatars/2.png",
+    banner: "/assets/images/valo.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "Minecraft Builders",
+    members: "85K",
+    avatar: "/assets/avatars/1.png",
+    banner: "/assets/avatars/9.png",
+    verified: false,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "FIFA World Club",
+    members: "94K",
+    avatar: "/assets/avatars/6.png",
+    banner: "/assets/images/valo.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "Valorant Masters",
+    members: "140K",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    avatar: "/assets/avatars/1.png",
+    banner: "/assets/avatars/9.png",
+    badge: "diamond",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "Fortnite Squad",
+    members: "210K",
+    avatar: "/assets/avatars/3.png",
+    banner: "/assets/images/valo.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "PUBG Elite",
+    members: "80K",
+    avatar: "/assets/avatars/3.png",
+    banner: "/assets/images/valo.png",
+    verified: false,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "Call of Duty Pros",
+    members: "125K",
+    avatar: "/assets/avatars/4.png",
+    banner: "/assets/avatars/9.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "Overwatch Warriors",
+    members: "56K",
+    avatar: "/assets/avatars/5.png",
+    banner: "/assets/images/valo.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "GTA V Crew",
+    members: "170K",
+    avatar: "/assets/avatars/6.png",
+    banner: "/assets/images/valo.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "Rocket League Champs",
+    members: "65K",
+    avatar: "/assets/avatars/5.png",
+    banner: "/assets/avatars/9.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "Smash Bros Legends",
+    members: "90K",
+    avatar: "/assets/avatars/4.png",
+    banner: "/assets/images/valo.png",
+    verified: false,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "Rainbow Six Siege Tactics",
+    members: "110K",
+    avatar: "/assets/avatars/3.png",
+    banner: "/assets/images/valo.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "Dota 2 Global",
+    members: "155K",
+    avatar: "/assets/avatars/2.png",
+    banner: "/assets/avatars/9.png",
+    verified: true,
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+  {
+    name: "League of Legends Pro",
+    members: "200K",
+    verified: true,
+    badge: "diamond",
+    avatar: "/assets/avatars/1.png",
+    banner: "/assets/images/valo.png",
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repudiandae, rem eaque dicta dolorum dignissimos itaque ipsa debitis veniam reprehenderit.",
+    category: categories[Math.floor(Math.random() * categories.length)],
+  },
+];
+
+export const timelines = [
+  {
+    key: "upcoming",
+    label: "Upcoming",
+  },
+  {
+    key: "on-going",
+    label: "Ongoing ",
+  },
+  {
+    key: "past",
+    label: "Past",
+  },
+];
+
+export const gamesList = [
+  {
+    key: "league-of-legends",
+    label: "League of Legends",
+  },
+  {
+    key: "valorant",
+    label: "Valorant",
+  },
+  {
+    key: "fortnite",
+    label: "Fortnite",
+  },
+  {
+    key: "call-of-duty",
+    label: "Call of Duty",
+  },
+  {
+    key: "overwatch",
+    label: "Overwatch",
+  },
+  {
+    key: "apex-legends",
+    label: "Apex Legends",
+  },
+  {
+    key: "minecraft",
+    label: "Minecraft",
+  },
+  {
+    key: "counter-strike",
+    label: "Counter Strike",
+  },
+];
+
+export const languages = [
+  {
+    key: "en",
+    label: "English",
+  },
+  {
+    key: "es",
+    label: "Spanish",
+  },
+  {
+    key: "fr",
+    label: "French",
+  },
+  {
+    key: "de",
+    label: "German",
+  },
+  {
+    key: "it",
+    label: "Italian",
+  },
+  {
+    key: "pt",
+    label: "Portuguese",
+  },
+  {
+    key: "ru",
+    label: "Russian",
+  },
+  {
+    key: "zh",
+    label: "Chinese",
+  },
+  {
+    key: "ja",
+    label: "Japanese",
+  },
+  {
+    key: "ko",
+    label: "Korean",
+  },
+  {
+    key: "ar",
+    label: "Arabic",
+  },
+  {
+    key: "hi",
+    label: "Hindi",
+  },
+  {
+    key: "nl",
+    label: "Dutch",
+  },
+  {
+    key: "sv",
+    label: "Swedish",
+  },
+  {
+    key: "pl",
+    label: "Polish",
+  },
+];
+
+export const filterOptions = ["1v1", "2v2", "3v3", "4v4", "5v5"];
+
+export const countries = [
+  { key: "af", label: "Afghanistan" },
+  { key: "al", label: "Albania" },
+  { key: "dz", label: "Algeria" },
+  { key: "as", label: "American Samoa" },
+  { key: "ad", label: "Andorra" },
+  { key: "ao", label: "Angola" },
+  { key: "ai", label: "Anguilla" },
+  { key: "ag", label: "Antigua and Barbuda" },
+  { key: "ar", label: "Argentina" },
+  { key: "am", label: "Armenia" },
+  { key: "aw", label: "Aruba" },
+  { key: "au", label: "Australia" },
+  { key: "at", label: "Austria" },
+  { key: "az", label: "Azerbaijan" },
+  { key: "bs", label: "Bahamas" },
+  { key: "bh", label: "Bahrain" },
+  { key: "bd", label: "Bangladesh" },
+  { key: "bb", label: "Barbados" },
+  { key: "by", label: "Belarus" },
+  { key: "be", label: "Belgium" },
+  { key: "bz", label: "Belize" },
+  { key: "bj", label: "Benin" },
+  { key: "bm", label: "Bermuda" },
+  { key: "bt", label: "Bhutan" },
+  { key: "bo", label: "Bolivia" },
+  { key: "ba", label: "Bosnia and Herzegovina" },
+  { key: "bw", label: "Botswana" },
+  { key: "br", label: "Brazil" },
+  { key: "bn", label: "Brunei Darussalam" },
+  { key: "bg", label: "Bulgaria" },
+  { key: "bf", label: "Burkina Faso" },
+  { key: "bi", label: "Burundi" },
+  { key: "kh", label: "Cambodia" },
+  { key: "cm", label: "Cameroon" },
+  { key: "ca", label: "Canada" },
+  { key: "cv", label: "Cape Verde" },
+  { key: "ky", label: "Cayman Islands" },
+  { key: "cf", label: "Central African Republic" },
+  { key: "td", label: "Chad" },
+  { key: "cl", label: "Chile" },
+  { key: "cn", label: "China" },
+  { key: "co", label: "Colombia" },
+  { key: "km", label: "Comoros" },
+  { key: "cg", label: "Congo" },
+  { key: "cd", label: "Congo, Democratic Republic of" },
+  { key: "cr", label: "Costa Rica" },
+  { key: "ci", label: "Côte d'Ivoire" },
+  { key: "hr", label: "Croatia" },
+  { key: "cu", label: "Cuba" },
+  { key: "cy", label: "Cyprus" },
+  { key: "cz", label: "Czech Republic" },
+  { key: "dk", label: "Denmark" },
+  { key: "dj", label: "Djibouti" },
+  { key: "dm", label: "Dominica" },
+  { key: "do", label: "Dominican Republic" },
+  { key: "ec", label: "Ecuador" },
+  { key: "eg", label: "Egypt" },
+  { key: "sv", label: "El Salvador" },
+  { key: "gq", label: "Equatorial Guinea" },
+  { key: "er", label: "Eritrea" },
+  { key: "ee", label: "Estonia" },
+  { key: "et", label: "Ethiopia" },
+  { key: "fj", label: "Fiji" },
+  { key: "fi", label: "Finland" },
+  { key: "fr", label: "France" },
+  { key: "ga", label: "Gabon" },
+  { key: "gm", label: "Gambia" },
+  { key: "ge", label: "Georgia" },
+  { key: "de", label: "Germany" },
+  { key: "gh", label: "Ghana" },
+  { key: "gr", label: "Greece" },
+  { key: "gd", label: "Grenada" },
+  { key: "gu", label: "Guam" },
+  { key: "gt", label: "Guatemala" },
+  { key: "gn", label: "Guinea" },
+  { key: "gw", label: "Guinea-Bissau" },
+  { key: "gy", label: "Guyana" },
+  { key: "ht", label: "Haiti" },
+  { key: "hn", label: "Honduras" },
+  { key: "hk", label: "Hong Kong" },
+  { key: "hu", label: "Hungary" },
+  { key: "is", label: "Iceland" },
+  { key: "in", label: "India" },
+  { key: "id", label: "Indonesia" },
+  { key: "ir", label: "Iran" },
+  { key: "iq", label: "Iraq" },
+  { key: "ie", label: "Ireland" },
+  { key: "il", label: "Israel" },
+  { key: "it", label: "Italy" },
+  { key: "jm", label: "Jamaica" },
+  { key: "jp", label: "Japan" },
+  { key: "jo", label: "Jordan" },
+  { key: "kz", label: "Kazakhstan" },
+  { key: "ke", label: "Kenya" },
+  { key: "ki", label: "Kiribati" },
+  { key: "kp", label: "Korea (North)" },
+  { key: "kr", label: "Korea (South)" },
+  { key: "kw", label: "Kuwait" },
+  { key: "kg", label: "Kyrgyzstan" },
+  { key: "la", label: "Laos" },
+  { key: "lv", label: "Latvia" },
+  { key: "lb", label: "Lebanon" },
+  { key: "ls", label: "Lesotho" },
+  { key: "lr", label: "Liberia" },
+  { key: "ly", label: "Libya" },
+  { key: "li", label: "Liechtenstein" },
+  { key: "lt", label: "Lithuania" },
+  { key: "lu", label: "Luxembourg" },
+  { key: "mo", label: "Macau" },
+  { key: "mk", label: "Macedonia" },
+  { key: "mg", label: "Madagascar" },
+  { key: "mw", label: "Malawi" },
+  { key: "my", label: "Malaysia" },
+  { key: "mv", label: "Maldives" },
+  { key: "ml", label: "Mali" },
+  { key: "mt", label: "Malta" },
+  { key: "mh", label: "Marshall Islands" },
+  { key: "mr", label: "Mauritania" },
+  { key: "mu", label: "Mauritius" },
+  { key: "mx", label: "Mexico" },
+  { key: "fm", label: "Micronesia" },
+  { key: "md", label: "Moldova" },
+  { key: "mc", label: "Monaco" },
+  { key: "mn", label: "Mongolia" },
+  { key: "me", label: "Montenegro" },
+  { key: "ma", label: "Morocco" },
+  { key: "mz", label: "Mozambique" },
+  { key: "mm", label: "Myanmar" },
+  { key: "na", label: "Namibia" },
+  { key: "nr", label: "Nauru" },
+  { key: "np", label: "Nepal" },
+  { key: "nl", label: "Netherlands" },
+  { key: "nz", label: "New Zealand" },
+  { key: "ni", label: "Nicaragua" },
+  { key: "ne", label: "Niger" },
+  { key: "ng", label: "Nigeria" },
+  { key: "no", label: "Norway" },
+  { key: "om", label: "Oman" },
+  { key: "pk", label: "Pakistan" },
+  { key: "pw", label: "Palau" },
+  { key: "ps", label: "Palestine" },
+  { key: "pa", label: "Panama" },
+  { key: "pg", label: "Papua New Guinea" },
+  { key: "py", label: "Paraguay" },
+  { key: "pe", label: "Peru" },
+  { key: "ph", label: "Philippines" },
+  { key: "pl", label: "Poland" },
+  { key: "pt", label: "Portugal" },
+  { key: "qa", label: "Qatar" },
+  { key: "ro", label: "Romania" },
+  { key: "ru", label: "Russia" },
+  { key: "rw", label: "Rwanda" },
+  { key: "kn", label: "Saint Kitts and Nevis" },
+  { key: "lc", label: "Saint Lucia" },
+  { key: "vc", label: "Saint Vincent and the Grenadines" },
+  { key: "ws", label: "Samoa" },
+  { key: "sm", label: "San Marino" },
+  { key: "st", label: "Sao Tome and Principe" },
+  { key: "sa", label: "Saudi Arabia" },
+  { key: "sn", label: "Senegal" },
+  { key: "rs", label: "Serbia" },
+  { key: "sc", label: "Seychelles" },
+  { key: "sl", label: "Sierra Leone" },
+  { key: "sg", label: "Singapore" },
+  { key: "sk", label: "Slovakia" },
+  { key: "si", label: "Slovenia" },
+  { key: "sb", label: "Solomon Islands" },
+  { key: "so", label: "Somalia" },
+  { key: "za", label: "South Africa" },
+  { key: "es", label: "Spain" },
+  { key: "lk", label: "Sri Lanka" },
+  { key: "sd", label: "Sudan" },
+  { key: "sr", label: "Suriname" },
+  { key: "sz", label: "Swaziland" },
+  { key: "se", label: "Sweden" },
+  { key: "ch", label: "Switzerland" },
+  { key: "sy", label: "Syria" },
+  { key: "tw", label: "Taiwan" },
+  { key: "tj", label: "Tajikistan" },
+  { key: "tz", label: "Tanzania" },
+  { key: "th", label: "Thailand" },
+  { key: "tl", label: "Timor-Leste" },
+  { key: "tg", label: "Togo" },
+  { key: "to", label: "Tonga" },
+  { key: "tt", label: "Trinidad and Tobago" },
+  { key: "tn", label: "Tunisia" },
+  { key: "tr", label: "Turkey" },
+  { key: "tm", label: "Turkmenistan" },
+  { key: "tv", label: "Tuvalu" },
+  { key: "ug", label: "Uganda" },
+  { key: "ua", label: "Ukraine" },
+  { key: "ae", label: "United Arab Emirates" },
+  { key: "gb", label: "United Kingdom" },
+  { key: "us", label: "United States" },
+  { key: "uy", label: "Uruguay" },
+  { key: "uz", label: "Uzbekistan" },
+  { key: "vu", label: "Vanuatu" },
+  { key: "ve", label: "Venezuela" },
+  { key: "vn", label: "Vietnam" },
+  { key: "ye", label: "Yemen" },
+  { key: "zm", label: "Zambia" },
+  { key: "zw", label: "Zimbabwe" },
+];
+
+export const days = [
+  { key: "01", label: "1" },
+  { key: "02", label: "2" },
+  { key: "03", label: "3" },
+  { key: "04", label: "4" },
+  { key: "05", label: "5" },
+  { key: "06", label: "6" },
+  { key: "07", label: "7" },
+  { key: "08", label: "8" },
+  { key: "09", label: "9" },
+  { key: "10", label: "10" },
+  { key: "11", label: "11" },
+  { key: "12", label: "12" },
+  { key: "13", label: "13" },
+  { key: "14", label: "14" },
+  { key: "15", label: "15" },
+  { key: "16", label: "16" },
+  { key: "17", label: "17" },
+  { key: "18", label: "18" },
+  { key: "19", label: "19" },
+  { key: "20", label: "20" },
+  { key: "21", label: "21" },
+  { key: "22", label: "22" },
+  { key: "23", label: "23" },
+  { key: "24", label: "24" },
+  { key: "25", label: "25" },
+  { key: "26", label: "26" },
+  { key: "27", label: "27" },
+  { key: "28", label: "28" },
+  { key: "29", label: "29" },
+  { key: "30", label: "30" },
+  { key: "31", label: "31" },
+];
+
+export const months = [
+  { key: "01", label: "January" },
+  { key: "02", label: "February" },
+  { key: "03", label: "March" },
+  { key: "04", label: "April" },
+  { key: "05", label: "May" },
+  { key: "06", label: "June" },
+  { key: "07", label: "July" },
+  { key: "08", label: "August" },
+  { key: "09", label: "September" },
+  { key: "10", label: "October" },
+  { key: "11", label: "November" },
+  { key: "12", label: "December" },
+];
+
+export const spaceCategories = [
+  {
+    label: "Brand",
+    key: "Brand",
+  },
+  {
+    label: "Community",
+    key: "Community",
+  },
+  {
+    key: "Organizer",
+    label: "Organizer",
+  },
+  {
+    key: "Content Creator",
+    label: "Content Creator",
+  },
+  {
+    key: "Publisher",
+    label: "Publisher",
+  },
+  {
+    key: "Developer",
+    label: "Developer",
+  },
+];
+
+export const years = [
+  { key: "1990", label: "1990" },
+  { key: "1991", label: "1991" },
+  { key: "1992", label: "1992" },
+  { key: "1993", label: "1993" },
+  { key: "1994", label: "1994" },
+  { key: "1995", label: "1995" },
+  { key: "1996", label: "1996" },
+  { key: "1997", label: "1997" },
+  { key: "1998", label: "1998" },
+  { key: "1999", label: "1999" },
+  { key: "2000", label: "2000" },
+  { key: "2001", label: "2001" },
+  { key: "2002", label: "2002" },
+  { key: "2003", label: "2003" },
+  { key: "2004", label: "2004" },
+  { key: "2005", label: "2005" },
+  { key: "2006", label: "2006" },
+  { key: "2007", label: "2007" },
+  { key: "2008", label: "2008" },
+  { key: "2009", label: "2009" },
+  { key: "2010", label: "2010" },
+  { key: "2011", label: "2011" },
+  { key: "2012", label: "2012" },
+  { key: "2013", label: "2013" },
+  { key: "2014", label: "2014" },
+  { key: "2015", label: "2015" },
+  { key: "2016", label: "2016" },
+  { key: "2017", label: "2017" },
+  { key: "2018", label: "2018" },
+  { key: "2019", label: "2019" },
+  { key: "2020", label: "2020" },
+  { key: "2021", label: "2021" },
+  { key: "2022", label: "2022" },
+  { key: "2023", label: "2023" },
+  { key: "2024", label: "2024" },
+  { key: "2025", label: "2025" },
+  { key: "2026", label: "2026" },
+  { key: "2027", label: "2027" },
+  { key: "2028", label: "2028" },
+  { key: "2029", label: "2029" },
+  { key: "2030", label: "2030" },
+];
+
+export const companySizes = [
+  { key: "small", label: "1-10 employees" },
+  { key: "medium", label: "11-50 employees" },
+  { key: "large", label: "51-200 employees" },
+  { key: "enterprise", label: "201-1000 employees" },
+  { key: "corporate", label: "1001+ employees" },
+];
+
+export const companyTypes = [
+  { key: "brand", label: "Brand" },
+  { key: "organizer", label: "Organizer" },
+  { key: "developer", label: "Developer" },
+  { key: "other", label: "other" },
+];
+
+export const teams = [
+  {
+    key: "1",
+    name: "1v1",
+  },
+  {
+    key: "2",
+    name: "2v2",
+  },
+  {
+    key: "3",
+    name: "3v3",
+  },
+  {
+    key: "4",
+    name: "4v4",
+  },
+
+  {
+    key: "5",
+    name: "5v5",
+  },
+];
+
+export const rounds = [
+  {
+    name: "Round 1",
+    matches: [
+      { team1: "To be decided", team2: "To be decided" },
+      { team1: "To be decided", team2: "To be decided" },
+      { team1: "To be decided", team2: "To be decided" },
+      { team1: "To be decided", team2: "To be decided" },
+      { team1: "To be decided", team2: "To be decided" },
+      { team1: "To be decided", team2: "To be decided" },
+      { team1: "To be decided", team2: "To be decided" },
+      { team1: "To be decided", team2: "To be decided" },
+    ],
+  },
+  {
+    name: "Round 2",
+    matches: [
+      { team1: "To be decided", team2: "To be decided" },
+      { team1: "To be decided", team2: "To be decided" },
+
+      { team1: "To be decided", team2: "To be decided" },
+      { team1: "To be decided", team2: "To be decided" },
+    ],
+  },
+  {
+    name: "Final",
+    matches: [
+      { team1: "To be decided", team2: "To be decided" },
+      { team1: "To be decided", team2: "To be decided" },
+    ],
+  },
+];
+
+export const teamsSize = [
+  {
+    key: "1",
+    name: "1v1",
+  },
+  {
+    key: "2",
+    name: "2v2",
+  },
+  {
+    key: "3",
+    name: "3v3",
+  },
+  {
+    key: "4",
+    name: "4v4",
+  },
+  {
+    key: "5",
+    name: "5v5",
+  },
+];
+
+export const substitutes = [
+  {
+    key: "0",
+    name: "None",
+  },
+  {
+    key: "1",
+    name: "1",
+  },
+  {
+    key: "2",
+    name: "2",
+  },
+  {
+    key: "3",
+    name: "3",
+  },
+  {
+    key: "4",
+    name: "4",
+  },
+  {
+    key: "5",
+    name: "5",
+  },
+];
+
+export const coaches = [
+  {
+    key: "0",
+    name: "None",
+  },
+  {
+    key: "1",
+    name: "1",
+  },
+  {
+    key: "2",
+    name: "2",
+  },
+  {
+    key: "3",
+    name: "3",
+  },
+  {
+    key: "4",
+    name: "4",
+  },
+  {
+    key: "5",
+    name: "5",
+  },
+];
