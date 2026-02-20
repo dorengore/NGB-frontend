@@ -41,7 +41,7 @@ const ProgressBarLink = ({
       className={cn(`text-white`, className)}
       href={href}
       target={target}
-      onClick={handleClick}
+      onClick={handleClick as any}
       {...rest}
     >
       {children}

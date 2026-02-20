@@ -34,7 +34,7 @@ const LinkButton = forwardRef<HTMLButtonElement, LinkButtonProps>(
     };
 
     return (
-      <Button ref={ref} {...otherProps} onClick={handleClick}>
+      <Button ref={ref} {...otherProps} onClick={handleClick as any}>
         {children}
       </Button>
     );
